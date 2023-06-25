@@ -47,5 +47,7 @@ Một số tính năng, đặc điểm nổi bật của Tutor mà chúng tôi �
  * Có thể hoạt động tương thích với `Kubernetes <https://docs.tutor.overhang.io/k8s.html>`_.
 
 .. toctree::
+    :hidden:
+    :maxdepth: 2
 
-   tutor
+    tutor
