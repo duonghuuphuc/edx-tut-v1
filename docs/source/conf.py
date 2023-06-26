@@ -42,7 +42,7 @@ ogp_site_url = "https://edx-docs.fastai.dev/vi/latest/"
 ogp_image = "https://fastai.dev/static/img/fb-og-edx-docs-20230623.png"
 ogp_description_length = 300
 ogp_type = "article"
-ogp_enable_meta_description = True
+ogp_enable_meta_description = False
 
 ogp_custom_meta_tags = [
     '<meta name="keywords" content="Dương Hữu Phúc, Duong Huu Phuc, Phuc H. Duong, Ton Duc Thang University, Open edX, Tutor" />',
