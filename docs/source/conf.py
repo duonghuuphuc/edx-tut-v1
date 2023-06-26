@@ -41,5 +41,5 @@ ogp_custom_meta_tags = [
     '<meta property="og:url" content="https://edx-docs.fastai.dev/vi/latest/" />',
     '<meta property="og:locale" content="vi" />',
     '<meta property="og:image" content="https://fastai.dev/static/img/fb-og-edx-docs-20230623.png" />',
-    '<meta property="og:description" content="This is series of articles that utilize Open edX as the primary platform to illustrate digital learning activities such as: present the installation and deployment process of the Open edX platform, explore effective utilization strategies for the Open edX platform. Each article will cater to specific reader profiles, such as programmers, educators, learners, and education administrators, to ensure easy access to the content." />',
+    '<meta property="og:description" content="This is series of articles that utilize Open edX as the primary platform to illustrate digital learning activities. Each article will cater to specific reader profiles, such as programmers, educators, learners, and education administrators, to ensure easy access to the content." />',
 ]
