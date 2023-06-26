@@ -38,15 +38,15 @@ epub_show_urls = 'footnote'
 
 # -- Options for Open Graph
 
+ogp_type = "article"
 ogp_site_url = "https://edx-docs.fastai.dev/vi/latest/"
 ogp_image = "https://fastai.dev/static/img/fb-og-edx-docs-20230623.png"
 ogp_description_length = 300
-ogp_type = "article"
 ogp_enable_meta_description = False
 
 ogp_custom_meta_tags = [
     '<meta name="keywords" content="Dương Hữu Phúc, Duong Huu Phuc, Phuc H. Duong, Ton Duc Thang University, Open edX, Tutor" />',
     '<meta property="og:locale" content="vi" />',
+    '<meta property="og:description" content=" Đây là chuỗi bài viết về việc sử dụng Open edX làm nền tảng chính để minh họa cho hoạt động dạy-học trên nền tảng số. Trong phần thứ nhất của chuỗi bài, chúng tôi sẽ trình bày cách thức cài đặt và triển khai nền tảng Open edX. Tiếp theo đó, trong phần hai, chúng tôi sẽ trình bày cách khai thác hiệu quả nền tảng Open edX. Chúng tôi sẽ thể hiện đối tượng người đọc trong mỗi bài viết để người dùng dễ tiếp cận các nội dung bài viết, chẳng hạn, lập trình viên, người dạy, người học, người quản lý giáo dục." />',
     '<meta property="fb:app_id" content="858663771713993" />',
-    '<meta property="og:description" content="This is series of articles that utilize Open edX as the primary platform to illustrate digital learning activities. Each article will cater to specific reader profiles, such as programmers, educators, learners, and education administrators, to ensure easy access to the content." />',
 ]
