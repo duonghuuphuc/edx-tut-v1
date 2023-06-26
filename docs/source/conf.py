@@ -47,5 +47,6 @@ ogp_enable_meta_description = False
 ogp_custom_meta_tags = [
     '<meta name="keywords" content="Dương Hữu Phúc, Duong Huu Phuc, Phuc H. Duong, Ton Duc Thang University, Open edX, Tutor" />',
     '<meta property="og:locale" content="vi" />',
+    '<meta property="fb:app_id" content="858663771713993" />',
     '<meta property="og:description" content="This is series of articles that utilize Open edX as the primary platform to illustrate digital learning activities. Each article will cater to specific reader profiles, such as programmers, educators, learners, and education administrators, to ensure easy access to the content." />',
 ]
