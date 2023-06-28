@@ -36,6 +36,9 @@ html_theme = 'sphinx_rtd_theme'
 epub_show_urls = 'footnote'
 
 
+# -- html favicon
+html_favicon = 'https://fastai.dev/favicon.png'
+
 # -- Options for Open Graph
 
 ogp_type = "article"
