@@ -7,7 +7,7 @@ Tạo XBlock đầu tiên
 Tạo XBlock mới
 -------------------
 
-Di chuyển đến thư mục **xblock_development**., chạy file **workbench-make-xblock** bằng lệnh python:
+Di chuyển đến thư mục **xblock_development**, chạy file **workbench-make-xblock** bằng lệnh python:
 
 .. code-block:: console
 
@@ -22,7 +22,8 @@ Sau khi chạy, cửa sổ Command yêu cầu chúng ta cung cấp các thông t
 
 .. note::
 
-  - Short name nên chỉ gồm một từ duy nhất, tất cả ký tự đều viết thường. Ví dụ, trong trường hợp muốn tạo Question Generation XBlock, chúng ta có thể đặt là “questgen”
+  - Short name nên chỉ gồm một từ duy nhất, tất cả ký tự đều viết thường. Ví dụ, trong trường hợp muốn tạo Question Generation XBlock, chúng ta có thể đặt là “questgen”.
+
   - Class name là tên class hợp lệ trong ngôn ngữ Python và nên kết thúc bằng “XBlock”, cùng ví dụ ở trên, lúc này ta có thể đặt là “QuestGenXBlock”.
 
 Sau khi nhập xong 2 thông tin trên, một thư mục mới được tạo ra nằm bên trong thư mục **xblock_development**. Thư mục mới này chứa các thư mục con và các tập tin để cài đăt XBlock.
@@ -31,8 +32,8 @@ Trong quá trình nhập thông tin, có thể bấm tổ hợp phím “Ctrl + 
 Cài đặt XBlock <myxblock>
 -------------------------
 
-Sau khi tạo mới XBlock, ta phải cài đặt vào trong XBlock-SDK
-Dùng lệnh **pip** để cài đặt **myxblock**
+Sau khi tạo mới XBlock, ta phải cài đặt vào trong XBlock-SDK.
+Dùng lệnh **pip** để cài đặt **myxblock**:
 
 .. code-block:: console
 
@@ -56,7 +57,7 @@ Bây giờ chúng ta có thể khởi động XBlock SDK bằng câu lệnh sau:
 
   python xblock-sdk/manage.py runserver
 
-Nếu chúng ta không chỉ định cổng giao tiếp, server XBlock SDK mặc định sẽ sử dụng cổng 8000. Có thể truyền tham số trong câu lệnh runserver để chỉ định cổng nếu không muốn sử dụng cổng mặc định.
+Nếu chúng ta không chỉ định cổng giao tiếp, server XBlock SDK mặc định sẽ sử dụng cổng 8000. Có thể truyền tham số trong câu lệnh runserver để chỉ định cổng nếu không muốn sử dụng cổng mặc định:
 
 .. code-block:: console
 
