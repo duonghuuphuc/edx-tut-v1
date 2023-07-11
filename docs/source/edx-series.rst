@@ -89,7 +89,6 @@ Cài đặt và triển khai XBlock-SDK
 --------------------------------
 
 .. toctree::
-    :hidden:
     :maxdepth: 2
 
     xblock-sdk-configuration
