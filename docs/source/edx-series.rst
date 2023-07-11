@@ -83,7 +83,10 @@ Môi trường ảo
 
   Việc sử dụng môi trường ảo Python giúp cách ly và quản lý các dependencies của dự án. Người đọc có thể tìm hiểu về thông tin và ưu điểm khi sử dụng môi trường ảo Python trong tài liệu :ref:`Cài đặt và sử dụng Anaconda <anaconda-settingup>`.
 
-Các bước cài đặt XBlock SDK đã được mô tả trong phần :ref:`tiếp theo<xblock-sdk-configuration>` của bài viết.
+Các bước cài đặt XBlock SDK sẽ được mô tả trong phần :ref:`tiếp theo<xblock-sdk-configuration>` của bài viết.
+
+Cài đặt và triển khai XBlock-SDK
+--------------------------------
 
 .. toctree::
     :hidden:
