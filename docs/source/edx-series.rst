@@ -66,7 +66,7 @@ Bài viết này hướng đến các lập trình viên. Do đó, độc giả 
 Cài đặt môi trường lập trình
 ----------------------------
 
-Để xây dựng một XBlock, chúng ta cần phải có các công cụ sau trên thiết bị
+Để xây dựng một XBlock, chúng ta cần phải có các công cụ sau trên thiết bị:
 
 Python
 ^^^^^^
