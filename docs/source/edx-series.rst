@@ -3,7 +3,7 @@ Series tìm hiểu XBlock
 
 Tổng quan về XBlock
 -------------------
-XBlock là một trong những thành phần của nền tảng Open edX với mục đích xây dựng giáo trình và bài giảng. XBlock được thiết kế theo mô hình kiến trúc các thành phần (Component-based Architecture) nhằm mục tiêu xây dựng các khối chức năng độc lập, có thể tái sử dụng và tích hợp vào các khóa học trực tuyến. XBlock cho phép cộng đồng lập trình viên xây dựng và phát triển chức năng riêng để tích hợp vào khóa học và vẫn hoạt động tốt với các khối chức năng khác. Người quản lý khóa học có thể kết hợp các XBlock khác nhau, từ video, văn bản đến môi trường học tập cộng tác để nâng cao trải nghiệm học viên và giảng viên trong quá trình dạy-học.
+XBlock là một trong những thành phần của nền tảng Open edX với mục đích xây dựng giáo trình và bài giảng. XBlock được thiết kế theo mô hình kiến trúc các thành phần (**Component-based Architecture**) nhằm mục tiêu xây dựng các khối chức năng độc lập, có thể tái sử dụng và tích hợp vào các khóa học trực tuyến. XBlock cho phép cộng đồng lập trình viên xây dựng và phát triển chức năng riêng để tích hợp vào khóa học và vẫn hoạt động tốt với các khối chức năng khác. Người quản lý khóa học có thể kết hợp các XBlock khác nhau, từ video, văn bản đến môi trường học tập cộng tác để nâng cao trải nghiệm học viên và giảng viên trong quá trình dạy-học.
 
 .. raw:: html
 
@@ -71,7 +71,7 @@ Cài đặt môi trường lập trình
 Python
 ^^^^^^
 
-  Để chạy môi trường ảo và XBlock SDK, cũng như để xây dựng XBlock, lập trình viên phải cài đặt Python phiên bản >= 3.8 trên máy tính. Tham khảo thêm tại `đây <Python Release Python 3.8.6 | Python.org>`_
+  Để chạy môi trường ảo và XBlock SDK, cũng như để xây dựng XBlock, lập trình viên phải cài đặt Python phiên bản >= 3.8 trên máy tính. Tham khảo thêm tại `đây <https://www.python.org/downloads/>`_
 
 Git
 ^^^
@@ -81,22 +81,13 @@ Git
 Môi trường ảo
 ^^^^^^^^^^^^^
 
-  Việc sử dụng môi trường ảo Python giúp cách ly và quản lý các dependencies của dự án. Bạn có thể tìm hiểu thông tin và ưu điểm khi sử dụng môi trường ảo Python trong tài liệu :ref:`Cài đặt và sử dụng Anaconda <anaconda-settingup>`.
+  Việc sử dụng môi trường ảo Python giúp cách ly và quản lý các dependencies của dự án. Người đọc có thể tìm hiểu về thông tin và ưu điểm khi sử dụng môi trường ảo Python trong tài liệu :ref:`Cài đặt và sử dụng Anaconda <anaconda-settingup>`.
 
 Các bước cài đặt XBlock SDK đã được mô tả trong phần :ref:`tiếp theo<xblock-sdk-configuration>` của bài viết.
-
-
-Cài đặt và triển khai XBlock-SDK
------------------------------------
-
-.. toctree::
-    :maxdepth: 2
-
-    xblock-sdk-configuration
-    first-xblock
 
 Tổng kết
 --------
 
-Trong bài viết này, chúng ta đã tìm hiểu về XBlock và cách sử dụng XBlock SDK để xây dựng và phát triển các XBlock. Qua việc tạo XBlock, chúng ta đã có cái nhìn tổng quan về quy trình và công cụ cần thiết để tạo ra các phần mở rộng tùy chỉnh trong hệ thống Open edX.
+Trong bài viết này, chúng ta đã tìm hiểu về XBlock và cách sử dụng XBlock SDK để xây dựng và phát triển các XBlock. Qua quá trình tạo XBlock, chúng ta đã có cái nhìn tổng quan về quy trình và công cụ cần thiết để tạo ra các phần mở rộng tùy chỉnh trong hệ thống Open edX.
+
 Ở bài viết tiếp theo, chúng tôi sẽ hướng dẫn cài đặt và tích hợp các XBlock phổ biến, cung cấp khả năng tùy chỉnh và mở rộng tính năng của nền tảng học tập trực tuyến để đáp ứng nhu cầu cụ thể của người dùng và tổ chức sử dụng.
