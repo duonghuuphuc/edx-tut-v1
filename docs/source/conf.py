@@ -52,3 +52,6 @@ ogp_custom_meta_tags = [
     '<meta property="og:description" content=" Đây là chuỗi bài viết về việc sử dụng Open edX làm nền tảng chính để minh họa cho hoạt động dạy-học trên nền tảng số. Trong phần thứ nhất của chuỗi bài, chúng tôi sẽ trình bày cách thức cài đặt và triển khai nền tảng Open edX. Tiếp theo đó, trong phần hai, chúng tôi sẽ trình bày cách khai thác hiệu quả nền tảng Open edX. Chúng tôi sẽ thể hiện đối tượng người đọc trong mỗi bài viết để người dùng dễ tiếp cận các nội dung bài viết, chẳng hạn, lập trình viên, người dạy, người học, người quản lý giáo dục." />',
     '<meta property="fb:app_id" content="858663771713993" />',
 ]
+
+# Add custom static paths
+html_static_path = ['_static']

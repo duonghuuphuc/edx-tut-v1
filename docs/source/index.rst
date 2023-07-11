@@ -9,7 +9,8 @@ Khái niệm về hệ thống quản lý dạy học phát triển từ e-Learn
 
 Gần đây, sự tăng trưởng của lĩnh vực thực tế ảo tăng cường, đặc biệt là sự ra đời của các phần cứng dành cho người dùng cuối, sẽ là động lực thúc đẩy vai trò của LMS trong việc tạo ra những trải nghiệm mới cho hoạt động dạy và hoạt động học. Chẳng hạn, sự phát triển của công nghệ hình ảnh 3D giúp minh họa các cơ quan, bộ phận bên trong vật thể, cùng với công nghệ tương tác trực tuyến giúp nâng cao hiệu suất dạy-học thông qua mạng Internet.
 
-.. figure:: images/edx-ar.jpg
+.. figure:: _static/images/edx-ar.jpg
+
 Thực tế ảo tăng cường cho phép người học tương tác với môi trường xung quanh theo một phương pháp hoàn toàn mới. Nguồn: `Apple Inc. <https://www.apple.com/in/education/k12/docs/ar-in-edu-lesson-ideas.pdf>`_
 
 Trong chuỗi bài này, chúng tôi sẽ sử dụng Open edX làm nền tảng chính để minh họa cho hoạt động dạy-học trên nền tảng số. Trong phần thứ nhất của chuỗi bài, chúng tôi sẽ trình bày cách thức cài đặt và triển khai nền tảng Open edX. Tiếp theo đó, trong phần hai, chúng tôi sẽ trình bày cách khai thác hiệu quả nền tảng Open edX. Chúng tôi sẽ thể hiện đối tượng người đọc trong mỗi bài viết để người dùng dễ tiếp cận các nội dung bài viết, chẳng hạn, lập trình viên, người dạy, người học, người quản lý giáo dục.
@@ -64,9 +65,10 @@ Dự án này được cung cấp miễn phí cho cộng đồng bởi nhóm tá
 Các bài đăng trên Website sẽ được đăng tải và cập nhật thường xuyên. Bạn đọc hãy đăng ký theo dõi chúng tôi qua địa chỉ email, bằng cách ghi nhận thông tin theo biểu mẫu `tại đây <https://www.google.com/>`_.
 
 .. toctree::
-    	:hidden:
+  	:hidden:
 	:maxdepth: 2
 	:caption: Tài liệu hướng dẫn sử dụng
 
 	edx-introduce
+	edx-series
 	anaconda
