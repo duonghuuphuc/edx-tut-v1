@@ -8,7 +8,7 @@ XBlock là một trong những thành phần của nền tảng Open edX với m
 .. raw:: html
 
   <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; gap: 20px; margin-bottom: 20px;">
-    <video controls width="640" height="320">
+    <video controls width="80%" height="320">
       <source src="_static/xblock-intro.mp4" type="video/mp4">
       Introduction video about XBlock
       <br>
@@ -35,7 +35,7 @@ Tìm hiểu thêm tại `Open edX XBlocks available in Tahoe - Appsembler Knowle
 .. raw:: html
 
   <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; gap: 20px; margin-bottom: 20px;">
-    <video controls width="640" height="320">
+    <video controls width="80%" height="320">
       <source src="_static/in-video-xblock.mp4" type="video/mp4">
       Introduction video about XBlock
       <br>
