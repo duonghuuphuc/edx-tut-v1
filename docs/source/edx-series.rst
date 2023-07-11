@@ -50,6 +50,8 @@ Tìm hiểu thêm tại `Open edX XBlocks available in Tahoe - Appsembler Knowle
     </div>
   </div>
 
+.. _xblock_requirements:
+
 Điều kiện
 ---------
 
@@ -82,3 +84,12 @@ Môi trường ảo
   Việc sử dụng môi trường ảo Python giúp cách ly và quản lý các dependencies của dự án. Bạn có thể tìm hiểu thông tin và ưu điểm khi sử dụng môi trường ảo Python trong tài liệu :ref:`Cài đặt và sử dụng Anaconda <anaconda-settingup>`.
 
 Các bước cài đặt XBlock SDK đã được mô tả trong phần tiếp theo của bài viết.
+
+
+Cài đặt và triển khai XBlock-SDK
+-----------------------------------
+
+.. toctree::
+    :maxdepth: 2
+
+    xblock-sdk-configuration
