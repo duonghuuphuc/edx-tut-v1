@@ -92,6 +92,7 @@ Cài đặt và triển khai XBlock-SDK
     :maxdepth: 2
 
     xblock-sdk-configuration
+    first-xblock
 
 Tổng kết
 --------
