@@ -4,7 +4,7 @@
 Cài đặt XBlock-SDK
 *******************
 
-Trước khi đi tiếp ở phần này, lập trình viên đảm bảo rằng đã làm quen và cài đặt đầy đủ  trên máy tính các công nghệ trong phần :ref:`điều kiện <xblock_requirements>` khi xây dựng XBlock.
+Trước khi đi tiếp ở phần này, lập trình viên đảm bảo rằng đã làm quen và cài đặt đầy đủ trên máy tính các công nghệ trong phần :ref:`điều kiện <xblock_requirements>` khi xây dựng XBlock.
 
 Đầu tiên, tiến hành tạo một thư mục mới có tên là **xblock_development**. Trong thư mục này sẽ lưu trữ tất cả mọi thứ chúng ta sẽ làm việc liên quan đến XBlock, gồm có môi trường ảo, XBlock SDK và các XBlock sẽ phát triển.
 
@@ -70,13 +70,13 @@ Trở về thư mục gốc “xblock_development” bằng câu lệnh:
 
   cd ..
 
-Sau khi thực hiện các bước trên xong, chúng ta có thể khởi động XBlock-SDK thành công với câu lệnh:
+Sau khi thực hiện các bước trên xong, chúng ta có thể khởi động XBlock-SDK với câu lệnh:
 
 .. code-block:: console
 
   python xblock-sdk/manage.py runserver 3000
 
-Ở phần :ref:`tiếp theo <first-xblock>` của bài viết, chúng ta sẽ cùng nhau tạo một XBlock đầu tiên
+Ở phần :ref:`tiếp theo <first-xblock>` của bài viết, chúng ta sẽ cùng nhau tạo một XBlock đầu tiên.
 
 .. toctree::
     :hidden:
