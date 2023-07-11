@@ -76,4 +76,4 @@ Sau khi thực hiện các bước trên xong, chúng ta có thể khởi độn
 
   python xblock-sdk/manage.py runserver 3000
 
-Ở phần tiếp theo của bài viết, chúng ta sẽ cùng nhau tạo một XBlock đầu tiên
+Ở phần :ref:`tiếp theo <first-xblock>` của bài viết, chúng ta sẽ cùng nhau tạo một XBlock đầu tiên
