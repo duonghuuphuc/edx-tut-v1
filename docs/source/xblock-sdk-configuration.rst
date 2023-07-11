@@ -40,16 +40,6 @@ Clone Xblock SDK repository từ GitHub qua lệnh git:
 
   git clone https://github.com/edx/xblock-sdk.git
 
-XBlock SDK là một ứng dụng Python được sử dụng để hỗ trợ xây dựng các XBlock mới. XBlock SDK bao gồm 3 thành phần chính:
-
-   =========================== ===================================================================================================================================================
-   Tên thành phần              Mô tả vai trò
-   =========================== ===================================================================================================================================================
-   XBlock Creation Tool         Mang vai trò dựng nên "bộ xương" khi tạo ra một XBlock mới. Bộ xương ở đây chính là cấu trúc cơ bản hoặc bản mẫu ban đầu. Bên trong bản mẫu là một                                 tập hợp các tập tin (HTML, CSS, Python, ...) và thư mục được tạo tự động để lập trình viên có thể triển khai chức năng và giao diện của XBlock một                                 cách dễ dàng, nhanh chóng.                   
-   XBlock Runtime               Cung cấp khả năng hiển thị và tương tác nhằm mục đích theo dõi và kiểm thử XBlock đang xây dựng. Bên cạnh đó, ứng dụng còn cho phép lập trình viên                                 kiểm tra tính năng, giao diện phía người dùng trong môi trường phát triển sản phẩm.  
-   Sample XBlocks               Đây là những XBlock mẫu, có sẵn chức năng và giao diện dành cho người dùng. Lập trình viên có thể tham khảo mã nguồn bên trong để có cái nhìn tổng                                 quan hơn về cách xây dựng và triển khai XBlock.  
-   =========================== ===================================================================================================================================================
-
 Sau khi clone thành công XBlock-SDK, tạo thư mục var:
 
 .. code-block:: console
