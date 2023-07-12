@@ -9,56 +9,15 @@ Khái niệm về hệ thống quản lý dạy học phát triển từ e-Learn
 
 Gần đây, sự tăng trưởng của lĩnh vực thực tế ảo tăng cường, đặc biệt là sự ra đời của các phần cứng dành cho người dùng cuối, sẽ là động lực thúc đẩy vai trò của LMS trong việc tạo ra những trải nghiệm mới cho hoạt động dạy và hoạt động học. Chẳng hạn, sự phát triển của công nghệ hình ảnh 3D giúp minh họa các cơ quan, bộ phận bên trong vật thể, cùng với công nghệ tương tác trực tuyến giúp nâng cao hiệu suất dạy-học thông qua mạng Internet.
 
-.. figure:: _static/images/edx-ar.jpg
+.. raw:: html
 
-Thực tế ảo tăng cường cho phép người học tương tác với môi trường xung quanh theo một phương pháp hoàn toàn mới. Nguồn: `Apple Inc. <https://www.apple.com/in/education/k12/docs/ar-in-edu-lesson-ideas.pdf>`_
+  <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; gap: 20px; margin-bottom: 20px;">
+    <img src="_static/images/edx-ar.jpg" alt="Thực tế ảo tăng cường cho phép người học tương tác với môi trường xung quanh theo một phương pháp hoàn toàn mới" style="max-width: 480px; width: 100%; object-fit: cover;"></img>
+    <span style="font-weight: bold; max-width: 520px; word-wrap: break-word; white-space: wrap; text-align: center;">Thực tế ảo tăng cường cho phép người học tương tác với môi trường xung quanh theo một phương pháp hoàn toàn mới. Nguồn: <a href="https://www.apple.com/in/education/k12/docs/ar-in-edu-lesson-ideas.pdf" alt="Thực tế ảo">Apple Inc</a>
+    </span>
+  </div>
 
 Trong chuỗi bài này, chúng tôi sẽ sử dụng Open edX làm nền tảng chính để minh họa cho hoạt động dạy-học trên nền tảng số. Trong phần thứ nhất của chuỗi bài, chúng tôi sẽ trình bày cách thức cài đặt và triển khai nền tảng Open edX. Tiếp theo đó, trong phần hai, chúng tôi sẽ trình bày cách khai thác hiệu quả nền tảng Open edX. Chúng tôi sẽ thể hiện đối tượng người đọc trong mỗi bài viết để người dùng dễ tiếp cận các nội dung bài viết, chẳng hạn, lập trình viên, người dạy, người học, người quản lý giáo dục.
-
-
-Nhóm tác giả
-------------
-Dự án này được cung cấp miễn phí cho cộng đồng bởi nhóm tác giả sau:
-
-1/ **Dương Hữu Phúc**
-
-	Giảng viên, Khoa Công nghệ thông tin – Đại học Tôn Đức Thắng
-
-	Điều hành Dự án FastAI DEV
-
-	Email: dhphuc@fastai.dev
-
-2/ **Đỗ Quốc Dũng**
-
-	Sinh viên – Bộ môn Kỹ thuật phần mềm, Khoa Công nghệ thông tin – Đại học Tôn Đức Thắng
-
-	Thành viên Dự án FastAI DEV
-
-	Email: dqdung@fastai.dev
-
-3/ **Võ Tấn Lợi**
-
-	Sinh viên – Bộ môn Kỹ thuật phần mềm, Khoa Công nghệ thông tin – Đại học Tôn Đức Thắng
-
-	Thành viên Dự án FastAI DEV
-
-	Email: vtloi@fastai.dev
-
-4/ **Nguyễn Quốc Vĩnh**
-
-	Sinh viên – Bộ môn Kỹ thuật phần mềm, Khoa Công nghệ thông tin – Đại học Tôn Đức Thắng
-
-	Thành viên Dự án FastAI DEV
-
-	Email: nqvinh@fastai.dev
-
-5/ **Nguyễn Tôn Điền**
-
-	Sinh viên – Bộ môn Kỹ thuật phần mềm, Khoa Công nghệ thông tin – Đại học Tôn Đức Thắng
-
-	Thành viên Dự án FastAI DEV
-
-	Email: ntdien@fastai.dev
 
 Đăng ký theo dõi
 ----------------
@@ -72,3 +31,4 @@ Các bài đăng trên Website sẽ được đăng tải và cập nhật thư�
 	edx-introduce
 	edx-series
 	anaconda
+	contributors

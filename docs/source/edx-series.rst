@@ -39,14 +39,14 @@ Tìm hiểu thêm tại `Open edX XBlocks available in Tahoe - Appsembler Knowle
       <source src="_static/in-video-xblock.mp4" type="video/mp4">
       Introduction video about XBlock
       <br>
-      Source: <a href="https://www.youtube.com/watch?v=xVz5l8E_-Z8">XBlock: Courseware Components from edX - YouTube</a>
+      Nguồn: <a href="https://www.youtube.com/watch?v=xVz5l8E_-Z8">XBlock: Courseware Components from edX - YouTube</a>
     </video>
     <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; gap: 5px; font-weight: bold;">
         <span>
           Video demo XBlock của Open edX
         </span>
-          <span>Nguồn: <a href="https://www.youtube.com/watch?v=xVz5l8E_-Z8">XBlock: In-Video Quiz XBlock - Open edX</a>
-          </span>
+        <span>Nguồn: <a href="https://www.youtube.com/watch?v=xVz5l8E_-Z8">XBlock: In-Video Quiz XBlock - Open edX</a>
+        </span>
     </div>
   </div>
 

@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'FastAI'
+project = 'FastAI DEV'
 copyright = '2023, FastAI contributors'
 author = 'FastAI contributors'
 

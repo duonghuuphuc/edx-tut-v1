@@ -68,7 +68,7 @@ Lập trình viên có thể truy cập http://localhost:8000 (cổng mặc đ�
 .. raw:: html
 
   <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; gap: 20px; margin-bottom: 20px;">
-    <img src="_static/images/sdk-success.png" alt="Giao diện server XBlock-SDK trên localhost khi thực thi thành công"></img>
+    <img src="_static/images/sdk-success.png" alt="Giao diện server XBlock-SDK trên localhost khi thực thi thành công" style="max-width: 480px; width: 100%; object-fit: cover;"></img>
     <span style="font-weight: bold;">Giao diện server XBlock-SDK trên localhost khi thực thi thành công.
     </span>
   </div>
