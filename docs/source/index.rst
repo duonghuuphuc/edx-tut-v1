@@ -30,5 +30,6 @@ Các bài đăng trên Website sẽ được đăng tải và cập nhật thư�
 
 	edx-introduce
 	edx-series
+	xblock-sdk-series
 	anaconda
 	contributors

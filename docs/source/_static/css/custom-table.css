@@ -1,0 +1,24 @@
+.table-wrapper {
+	overflow-x: auto;
+	margin-bottom: 20px;
+}
+
+.csv {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.csv th,
+.csv td {
+	padding: 8px;
+	border: 1px solid #ccc;
+}
+
+.csv th {
+	background-color: #f2f2f2;
+	font-weight: bold;
+}
+
+.csv td {
+	vertical-align: top;
+}

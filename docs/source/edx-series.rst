@@ -1,8 +1,9 @@
-Series tìm hiểu XBlock
-=============================
+2. Series tìm hiểu XBlock
+==========================
+.. _xblock_overview:
 
-Tổng quan về XBlock
--------------------
+2.1. Tổng quan về XBlock
+------------------------
 XBlock là một trong những thành phần của nền tảng Open edX với mục đích xây dựng giáo trình và bài giảng. XBlock được thiết kế theo mô hình kiến trúc các thành phần (**Component-based Architecture**) nhằm mục tiêu xây dựng các khối chức năng độc lập, có thể tái sử dụng và tích hợp vào các khóa học trực tuyến. XBlock cho phép cộng đồng lập trình viên xây dựng và phát triển chức năng riêng để tích hợp vào khóa học và vẫn hoạt động tốt với các khối chức năng khác. Người quản lý khóa học có thể kết hợp các XBlock khác nhau, từ video, văn bản đến môi trường học tập cộng tác để nâng cao trải nghiệm học viên và giảng viên trong quá trình dạy-học.
 
 .. raw:: html
@@ -52,8 +53,8 @@ Tìm hiểu thêm tại `Open edX XBlocks available in Tahoe - Appsembler Knowle
 
 .. _xblock_requirements:
 
-Điều kiện
----------
+2.2. Điều kiện
+--------------
 
 Bài viết này hướng đến các lập trình viên. Do đó, độc giả nên có kiến thức cơ bản các công nghệ sau:
 
@@ -63,8 +64,8 @@ Bài viết này hướng đến các lập trình viên. Do đó, độc giả 
 - Môi trường ảo Python
 - Git
 
-Cài đặt môi trường lập trình
-----------------------------
+2.3. Cài đặt môi trường lập trình
+---------------------------------
 
 Để xây dựng một XBlock, chúng ta cần phải có các công cụ sau trên thiết bị:
 
@@ -85,8 +86,8 @@ Môi trường ảo
 
 Các bước cài đặt XBlock SDK sẽ được mô tả trong phần :ref:`tiếp theo<xblock-sdk-configuration>` của bài viết.
 
-Cài đặt và triển khai XBlock-SDK
---------------------------------
+2.4. Cài đặt và triển khai XBlock-SDK
+-------------------------------------
 
 .. toctree::
     :maxdepth: 2
@@ -94,8 +95,8 @@ Cài đặt và triển khai XBlock-SDK
     xblock-sdk-configuration
     first-xblock
 
-Tổng kết
---------
+2.5. Tổng kết
+-------------
 
 Trong bài viết này, chúng ta đã tìm hiểu về XBlock và cách sử dụng XBlock SDK để xây dựng và phát triển các XBlock. Qua quá trình tạo XBlock, chúng ta đã có cái nhìn tổng quan về quy trình và công cụ cần thiết để tạo ra các phần mở rộng tùy chỉnh trong hệ thống Open edX.
 
