@@ -4,7 +4,7 @@
 XBlock Fields
 *******************
 
-Sau các bước tạo **CounterXBlock**, ở trong tập tin **counter.py**, chúng ta tiến hành tạo một trường dữ liệu(sau đay gọi là field) với tên gọi là **count**.
+Sau các bước tạo **CounterXBlock**, ở trong tập tin **counter.py**, chúng ta tiến hành tạo một trường dữ liệu(sau đây gọi là field) với tên gọi là **count**.
 
 .. code-block:: python
 
@@ -13,13 +13,13 @@ Sau các bước tạo **CounterXBlock**, ở trong tập tin **counter.py**, ch
         scope=Scope.user_state,
         help="A simple counter, to show something happening")
 
-Có thể truy cập giá trị count để hiện thị ra UI trong tập tin counter.html ở thư mục static
+Có thể truy cập giá trị count để hiện thị ra UI trong tập tin **counter.html** ở thư mục static
 
 .. code-block:: html
 
     <div id="counter-value">{self.count}</div>
 
-Các trường dữ liệu là những thuộc tính của của XBlock để lưu trữ và truy xuất dữ liệu.
+Các trường dữ liệu là những thuộc tính của XBlock để lưu trữ và truy xuất dữ liệu.
 
 Khi khởi tạo một trường XBlock, cần xác định ba tham số quan trọng
 
@@ -116,7 +116,7 @@ Field có thể tương tác XBlock qua bốn kiểu phạm vi:
         <tr>
           <td style="white-space: nowrap;">Block definition</td>
           <td>Field được định nghĩa một lần khi XBlock được khởi tạo. Có thể chia sẻ qua các khóa học và được tái sử dụng nhiều lần.</td>
-          <td>Người sử dụng có thể tạo XBlock cho trình phát video và đặt các tùy chọn mặc định như tự động phát, phụ đề, v.v. trong định nghĩa. Tất cả các phiên bản của trình phát video đó sẽ sử dụng các giá trị mặc định.</td>
+          <td>Người sử dụng có thể tạo XBlock cho trình phát video và đặt các tùy chọn mặc định như: tự động phát, phụ đề, v.v. trong định nghĩa. Những tùy chọn mặc định có thể áp dụng cho tất cả các phiên bản của trình phát video.</td>
         </tr>
         <tr>
           <td style="white-space: nowrap;">Block type</td>
@@ -126,7 +126,7 @@ Field có thể tương tác XBlock qua bốn kiểu phạm vi:
         <tr>
           <td style="white-space: nowrap;">All</td>
           <td>Khi field có phạm vi kiểu All, mọi XBlock đều có thể truy cập và sử dụng dữ liệu.</td>
-          <td>Nhà phát triển có thể tạo XBlock để hiển thị thời gian hiện tại. Khi mỗi phiên bản của XBlock được tải, field <strong>current_datetime</strong> sẽ được chia sẻ và hiển thị giá trị đó.</td>
+          <td>Nhà phát triển có thể tạo XBlock để hiển thị thời gian hiện tại. Khi mỗi phiên bản của XBlock được tải, field <strong>current_datetime</strong> sẽ được chia sẻ và hiển thị giá trị.</td>
         </tr>
       </tbody>
     </table>
@@ -151,7 +151,7 @@ Fields and Data Storage
 --------------------------------------
 Mối quan hệ Field and Data Storage: các field được ghi và truy xuất dưới dạng các thực thể (instance) đơn lẻ, nên không thể lưu trữ một lượng lớn dữ liệu trong cùng một field. Do đó, ta nên chia nhỏ dữ liệu thành nhiều field nhỏ hơn để lưu trữ.
 
-Ví dụ: nếu ta có một XBlock lưu trữ thông tin về học viên bao gồm tên, địa chỉ, và số điện thoại, thay vì lưu trữ tất cả thông tin trong một field, ta có thể chia thành các field nhỏ hơn như "name", "address" và "phone_number". Điều này giúp chúng ta quản lý dữ liệu một cách dễ dàng và tiết kiệm không gian lưu trữ.
+Ví dụ: nếu ta có một XBlock lưu trữ thông tin về học viên bao gồm **tên**, **địa chỉ**, và **số điện thoại**, thay vì lưu trữ tất cả thông tin trong một field, ta có thể chia thành các field nhỏ hơn như **name**, **address** và **phone_number**. Điều này giúp chúng ta quản lý dữ liệu một cách dễ dàng và tiết kiệm không gian lưu trữ.
 
 Field and OLX
 -------------------
