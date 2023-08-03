@@ -15,7 +15,7 @@ Fragment đại diện cho các đoạn mã HTML, JavaScript và CSS được s�
 - Fragment chứa mã CSS để tùy chỉnh giao diện của XBlock.
 
 Fragment Contents
--------------------
+------------------
 
 **static/html/counter.html**: Nội dung trong một fragment thường là mã HTML, trong một số trường hợp, runtime có thể yêu cầu các view trả về các loại mime-type khác nhau như JSON hoặc XML.
 
@@ -117,10 +117,6 @@ Fragment Contents
 Hàm **CounterXBlock** trên có tác dụng tăng số đếm, thông qua việc gọi đến method **update_count** ở phía server. Khi người dùng nhấp vào các nút như "Tăng" hoặc "Giảm", chúng ta sẽ gửi yêu cầu AJAX tới server thông qua các URL đã xác định trước đó. Kết quả trả về từ server sẽ được sử dụng để cập nhật giá trị đếm trên giao diện người dùng.
 
 
-.. raw:: html
-
-  <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; gap: 20px; margin-bottom: 20px;">
-    <img src="_static/images/xblock-success.png" alt="Kết quả sau khi cài đặt thành công CounterXBlock" style="max-width: 600px; width: 100%; object-fit: cover;"></img>
-    <span style="font-weight: bold; max-width: 520px; word-wrap: break-word; white-space: wrap; text-align: center;">Kết quả sau khi cài đặt thành công CounterXBlock.
-    </span>
-  </div>
+Kết luận
+----------------
+Sử dụng fragment, chúng ta có thể tổ chức, quản lí giao diện và chức năng của XBlock theo ý muốn. Người phát triển có thể thêm, sửa đổi hoặc xóa bỏ các thành phần HTML, JavaScript và CSS trong fragment để tạo ra trải nghiệm người dùng tốt nhất cho khóa học.

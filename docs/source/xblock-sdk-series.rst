@@ -31,11 +31,7 @@ Bên cạnh đó, các lập trình viên nên đọc và tìm hiểu thêm về
     xblock-fragment
     xblock-method
 
-3.4. Kết luận
--------------------
-Sử dụng fragment, chúng ta có thể tổ chức, quản lí giao diện và chức năng của XBlock theo ý muốn. Người phát triển có thể thêm, sửa đổi hoặc xóa bỏ các thành phần HTML, JavaScript và CSS trong fragment để tạo ra trải nghiệm người dùng tốt nhất cho khóa học.
-
-3.5. Tài liệu tham khảo
+3.4. Tài liệu tham khảo
 -----------------------
 
 - `XBlock SDK tutorial <https://edx.readthedocs.io/projects/xblock-tutorial/en/latest/index.html/>`_

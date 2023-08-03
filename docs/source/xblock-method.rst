@@ -78,6 +78,14 @@ gọi những phương thức này khi cần thiết.
             self.count = 0
             return {"count": self.count}
 
+.. raw:: html
+
+  <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; gap: 20px; margin-bottom: 20px;">
+    <img src="_static/images/xblock-success.png" alt="Kết quả sau khi cài đặt thành công CounterXBlock" style="max-width: 600px; width: 100%; object-fit: cover;"></img>
+    <span style="font-weight: bold; max-width: 520px; word-wrap: break-word; white-space: wrap; text-align: center;">Kết quả sau khi cài đặt thành công CounterXBlock.
+    </span>
+  </div>
+
 Kết luận
 -------------------
 XBlock methods là thành phần không thể thiếu để xử lý business logic phía server, cho phép ta xác định hành vi và chức năng của XBlock. Bằng cách triển khai các phương thức trong lớp XBlock, nhà phát triển có thể tạo ra những trải nghiệm tương tác linh hoạt trong việc dạy-học trên nền tảng Open edX.
