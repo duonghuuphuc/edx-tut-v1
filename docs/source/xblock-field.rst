@@ -92,7 +92,7 @@ XBlock Scope
 
 XBlock Scope là phạm vi truy cập của XBlock.
 
-Hiểu được phạm vi của XBlock, giúp lập trình có thể bảo vệ dữ liệu nhạy cảm, cũng như tái sử dụng hoặc chia sẻ các XBlock với nhau.
+Hiểu được phạm vi của XBlock, giúp lập trình viên có thể bảo vệ dữ liệu nhạy cảm, cũng như tái sử dụng hoặc chia sẻ các XBlock với nhau.
 
 Field có thể tương tác XBlock qua bốn kiểu phạm vi:
 
@@ -135,7 +135,7 @@ Field có thể tương tác XBlock qua bốn kiểu phạm vi:
 .. note::
     Khi sử dụng phạm vi kiểu All, có khả năng xảy ra xung đột giữa các field với nhau: trùng tên, rối loạn kiểu dữ liệu, …
 
-Mối liên hệ giữa phạm vi người dùng và phạm vi block:
+Mối liên hệ giữa phạm vi người dùng và phạm vi XBlock:
 
 .. csv-table::
    :header: "", "UserScope.NONE", "UserScope.ONE", "UserScope.ALL"
