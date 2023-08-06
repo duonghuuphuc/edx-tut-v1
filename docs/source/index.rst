@@ -21,7 +21,7 @@ Trong chuỗi bài này, chúng tôi sẽ sử dụng Open edX làm nền tảng
 
 Đăng ký theo dõi
 ----------------
-Các bài đăng trên Website sẽ được đăng tải và cập nhật thường xuyên. Bạn đọc hãy đăng ký theo dõi chúng tôi qua địa chỉ email, bằng cách ghi nhận thông tin theo biểu mẫu `tại đây <https://www.google.com/>`_.
+Các bài đăng trên Website sẽ được đăng tải và cập nhật thường xuyên. Bạn đọc hãy đăng ký theo dõi chúng tôi qua địa chỉ email, bằng cách ghi nhận thông tin theo biểu mẫu `tại đây <https://forms.gle/MPvHm6VrPfeMruFc7/>`_.
 
 .. toctree::
   	:hidden:
